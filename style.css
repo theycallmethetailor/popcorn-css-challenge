@@ -73,7 +73,7 @@ nav {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   -webkit-box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
   box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
@@ -84,15 +84,21 @@ nav {
 
 .top-content .inner-box {
   width: 30%;
-  /* flex: 1 1 0;   */
-  height: 250px;
+  /* height: 250px; */
+  flex-grow: 1 1 0;
 }
 
 p {
   margin: 20px;
+
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
 }
 
 .wow {
   border: 1px solid black;
-  width: auto;
+  width: 80%;
 }
