@@ -19,7 +19,6 @@ html, body {
   background-color: #FFDBAA;
   display: flex;
   align-content: center;
-
 }
 
 .head h1 {
@@ -74,11 +73,17 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align
-  width: 30%;
-  box-shadow: 5px 5px 5px gray;
+  -webkit-box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
+  box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
   align-items: center;
   margin: 20px;
+}
+
+.top-content .inner-box {
+  width: 30%;
+  /* flex: 1 1 0;   */
+  height: 250px;
 }
 
 p {
