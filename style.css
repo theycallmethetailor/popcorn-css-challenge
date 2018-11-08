@@ -54,6 +54,10 @@ nav {
   border-radius: 10px;
 }
 
+.link:hover {
+  background-color: #e4b47c;
+}
+
 .main-content {
   background-color: #D4A76A;
 }
@@ -104,3 +108,20 @@ p {
   border: 1px solid black;
   width: 80%;
 }
+
+/* nav {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction:normal;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+} */
