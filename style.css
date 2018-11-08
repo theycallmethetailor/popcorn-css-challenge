@@ -51,6 +51,7 @@ nav {
   margin: 10px;
   font-weight: bold;
   align-content: center;
+  border-radius: 10px;
 }
 
 .main-content {
@@ -78,6 +79,7 @@ nav {
   box-shadow: -4px 10px 69px 0px rgba(0,0,0,0.75);
   align-items: center;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .top-content .inner-box {
